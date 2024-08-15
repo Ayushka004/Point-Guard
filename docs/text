@@ -1,0 +1,1 @@
+sudo shutdown -h +$(($(date -jf "%H:%M" "06:59" +%s) - $(date +%s)) / 60)
